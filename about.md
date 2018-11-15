@@ -5,17 +5,17 @@ permalink: /about/
 ---
 
 
-# **Xin Shi**  PhD
+### **Xin Shi**  PhD
 
-**Delft University of Technology**
-Department of Bionanoscience, Faculty of Applied Sciences
-Tel: +31 621939193
-Email: [x.shi@tudelft.nl](mailto:x.shi@tudelft.nl), [dan.shixin@outlook.com](mailto:dan.shixin@outlook.com) 
-Date of birth: 2 January 1991
+**Delft University of Technology**<br/>
+Department of Bionanoscience, Faculty of Applied Sciences<br/>
+Tel: +31 621939193<br/>
+Email: [x.shi@tudelft.nl](mailto:x.shi@tudelft.nl), [dan.shixin@outlook.com](mailto:dan.shixin@outlook.com)<br/>
+Date of birth: 2 January 1991<br/>
 
-**_Dr. Xin Shi is a post-doctoral researcher in Cees Dekker Lab at the Delft University of Technology. He received his PhD degree from East China University of Science and Technology in 2018 under the supervision of Prof. Yi-Tao Long. During the last two years of his doctoral research, he joined Cees Dekker Lab for a joint PhD program. His research interests focus on nanopore sensing, single-molecule plasmonic sensing, and plasmon enhanced spectroscopy._**
+_**Dr. Xin Shi** is a post-doctoral researcher in Cees Dekker Lab at the Delft University of Technology. He received his PhD degree from East China University of Science and Technology in 2018 under the supervision of Prof. Yi-Tao Long. During the last two years of his doctoral research, he joined Cees Dekker Lab for a joint PhD program. His research interests focus on nanopore sensing, single-molecule plasmonic sensing, and plasmon enhanced spectroscopy._
 
-## Research Interest
+### Research Interest
 
 *   Solid-state nanopore single-molecule analysis
 *   Surface-plasmon-based single-molecule sensing
@@ -23,41 +23,49 @@ Date of birth: 2 January 1991
 *   Dark-field microscopy and spectroscopy
 *   Scientific instrument development
 
-## Work Experience
+### Work Experience
 
-**Delft University of Technology**,  Netherlands.  Supervisor: Prof. Cees Dekker  Postdoc
+**Delft University of Technology**, Netherlands<br/>
+Supervisor: Prof. Cees Dekker  Postdoc<br/>
 2018.10-present
 
-## Education
+### Education
 
-**Delft University of Technology**,  Netherlands.  
-Supervisor: Prof. Cees Dekker  
-Joint PhD student
+**Delft University of Technology**, Netherlands<br/>
+Supervisor: Prof. Cees Dekker<br>
+Joint PhD student<br/>
 2016.08-2018.07
 
-**East China University of Science and Technology**,  China. 
-Supervisor: Prof. Yi-Tao Long  
-PhD student
-2013.06-2018.09
+**East China University of Science and Technology**, China<br/> 
+Supervisor: Prof. Yi-Tao Long<br/>
+PhD student<br/>
+2013.06-2018.09<br/>
 
-**East China University of Science and Technology**,  China. 
-B. Sc.
+**East China University of Science and Technology**, China<br/> 
+B. Sc.<br>
 2009.09-2013.06
 
-## Professional Skills
+### Professional Skills
 
-**Single-molecule biophysics experiments** (solid-state nanopores, single molecular imaging, TIRF); 
-**Dark-field microscopy** (dark-field nanopore project, dark-field assisted SERS) 
-**Nanodevice fabrication** (electron-beam lithography, optical lithography, film evaporation /sputtering, scanning-electron microscopy); 
-**Optical/microscopy system design and construction** (plasmonic nanopore project & dark-field nanopore project); 
-**LabVIEW programing** (program for the plasmonic nanopore project, molecular plug project);
- **FDTD simulation** (plasmonic nanopore project); 
- **Molecular and single-particle spectroscopy** (surface- enhanced Raman spectroscopy, single particle dark-field scattering spectroscopy); 
- **Matlab** (data analysis and illustration);
+- **Single-molecule biophysics experiments**
+	- solid-state nanopores
+	- single molecular fluorescence imaging   
+- **Dark-field microscopy**    
+- **Nanodevice fabrication** 
+	- electron-beam lithography
+	- optical lithography, film evaporation /sputtering, scanning-electron microscopy)  
+- **Optical/microscopy system design and construction** 
+	- plasmonic nanopore setups & dark-field nanopore setups   
+- **LabVIEW programing**   
+- **FDTD simulation** 
+- **Molecular and single-particle spectroscopy** 
+	- surface-enhanced Raman spectroscopy
+	- single particle dark-field scattering spectroscopy)
+- **Matlab** 
 
-## Publications
+### Publications
 
-1. **X. Shi**, D. Verschueren, and C. Dekker, Active delivery of single DNA molecules into a plasmonic nanopore for label-free optical sensing  **Under review**
+1.  **X. Shi**, D. Verschueren, and C. Dekker, Active delivery of single DNA molecules into a plasmonic nanopore for label-free optical sensing  **Under review**
 2.  **X. Shi**, Q. Li, R. Gao, W. Si, SC. Liu, A. Aksimentiev and YT. Long,  [Dynamics of a Molecular Plug Docked onto a Solid-State Nanopore](https://pubs.acs.org/doi/10.1021/acs.jpclett.8b01755). Journal of Physical Chemistry Letters,  9, 4686–4694 (2018)
 3.  **X. Shi**, D. Verschueren, S. Pud, and Cees Dekker, 2017. [Integrating sub-3nm plasmonic gaps into solid-state nanopores](https://onlinelibrary.wiley.com/doi/full/10.1002/smll.201703307). Small, 14. 18: 1703307. (2017)
 4.  **X. Shi**, R. Gao, YL. Ying, ,W. Si, YF Chen, and YT. Long, [A Scattering Nanopore for Single Nanoentity Sensing](https://pubs.acs.org/doi/abs/10.1021/acssensors.6b00408). ACS Sensors, 1(9), 1086-1090\. (2016)
@@ -69,12 +77,12 @@ B. Sc.
 10.  C. Jing, F. J. Rawson, H. Zhou, **X. Shi**, WH. Li, DW. Li, and YT. Long. [New Insights into Electrocatalysis Based on Plasmon Resonance for the Real-Time Monitoring of Catalytic Events on Single Gold Nanorods](https://pubs.acs.org/doi/10.1021/ac500785u). Analytical Chemistry 86, 5513-5518 (2014).
 11.  Z. Liu, L. Cheng, L. Zhang, C. Jing, **X. Shi**, Z. Yang, YT. Long and J. Fang. [Large-area fabrication of highly reproducible surface enhanced Raman substrate via a facile double sided tape-assisted transfer approach using hollow Au-Ag alloy nanourchins](https://pubs.rsc.org/en/Content/ArticleLanding/2014/NR/C3NR05840A#!divAbstract). Nanoscale 6, 2567-2572 (2014).
 
-## Patents
+### Patents
 
 1.  YT. Long,  **X.  Shi**, R. Gao, YL. Ying, C. Jing, HW. Li. Synchronous optical and electrical nanopore sensing based on dark-field microscopy, Appl. No(s): CN201510225193.5 Granted (Chinese patent for invention)
 2.  YT. Long,  **X.  Shi**, R. Gao, SC. Liu, YL. Ying. A detection system for optical and electrical readout of metal-coated nanopore, Appl. No(s): CN201520285880.1 Granted (Chinese patent for utility model)
 
-## Conference Experience
+### Conference Experience
 
 1.  X. Shi, D. Verschueren, and C. Dekker. Fast label-free optical detection of DNA translocations through plasmonic nanopores. Nanofluidics in physics and biology. Poster. July 9-12th 2018 Lyon, **France**
 2.  X. Shi, D. Verschueren, J. van der Torre, S. Pud, C. Dekker. Single molecule Raman spectroscopy using plasmonic nanopores. WE-Heraeus-Seminar: Transport Mechanisms in Biological and Synthetic Nanopores and –channels. Poster. July 16-21 2017 Bremen, **Germany**
@@ -82,6 +90,7 @@ B. Sc.
 4.  X. Shi, R. Gao, SC Liu, Q. Li, YT Long.  Direct observation of single biopolymer folding and unfolding process by solid-state nanopore. Biophysical society 61th annual meeting. Poster, **Travel Award**. Feb 11-15\. 2017 New Orleans, **US**
 5.  X. Shi, R. Gao, YL. Ying, W. Si, YF. Chen, YT. Long. Single molecule microscopy: an integrated system for optical and electrical detection of single molecules/particles inside a solid-state nanopore. Faraday Discuss. **Oral presentation**. Sept 13-15\. 2015 London, **UK**
 
+----
 
 This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
 
