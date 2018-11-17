@@ -1,11 +1,11 @@
 ---
 layout: page
-title: About
+title: About Me
 permalink: /about/
 ---
 
 
-### **Xin Shi**  PhD
+### **Xin Shi**  
 
 **Delft University of Technology**<br/>
 Department of Bionanoscience, Faculty of Applied Sciences<br/>
@@ -51,21 +51,22 @@ B. Sc.<br>
 	- solid-state nanopores
 	- single molecular fluorescence imaging   
 - **Dark-field microscopy**    
-- **Nanodevice fabrication** 
-	- electron-beam lithography
-	- optical lithography, film evaporation /sputtering, scanning-electron microscopy)  
-- **Optical/microscopy system design and construction** 
-	- plasmonic nanopore setups & dark-field nanopore setups   
-- **LabVIEW programing**   
-- **FDTD simulation** 
+	- single nanoparticle scattering
 - **Molecular and single-particle spectroscopy** 
 	- surface-enhanced Raman spectroscopy
 	- single particle dark-field scattering spectroscopy)
+- **Nanodevice fabrication** 
+	- electron-beam lithography
+	- optical lithography, film evaporation/sputtering, scanning-electron microscopy)  
+- **Optical/microscopy system design and construction** 
+	- plasmonic nanopore setups & dark-field nanopore setups   
+- **LabVIEW programing** 
+- **FDTD simulation**   
 - **Matlab** 
 
 ### Publications
 
-1.  **X. Shi**, D. Verschueren, and C. Dekker, Active delivery of single DNA molecules into a plasmonic nanopore for label-free optical sensing  **Under review**
+1.  **X. Shi**, D. Verschueren, and C. Dekker, Active delivery of single DNA molecules into a plasmonic nanopore for label-free optical sensing  Nano Letters. (2018)
 2.  **X. Shi**, Q. Li, R. Gao, W. Si, SC. Liu, A. Aksimentiev and YT. Long,  [Dynamics of a Molecular Plug Docked onto a Solid-State Nanopore](https://pubs.acs.org/doi/10.1021/acs.jpclett.8b01755). Journal of Physical Chemistry Letters,  9, 4686–4694 (2018)
 3.  **X. Shi**, D. Verschueren, S. Pud, and Cees Dekker, 2017. [Integrating sub-3nm plasmonic gaps into solid-state nanopores](https://onlinelibrary.wiley.com/doi/full/10.1002/smll.201703307). Small, 14. 18: 1703307. (2017)
 4.  **X. Shi**, R. Gao, YL. Ying, ,W. Si, YF Chen, and YT. Long, [A Scattering Nanopore for Single Nanoentity Sensing](https://pubs.acs.org/doi/abs/10.1021/acssensors.6b00408). ACS Sensors, 1(9), 1086-1090\. (2016)
@@ -91,16 +92,3 @@ B. Sc.<br>
 5.  X. Shi, R. Gao, YL. Ying, W. Si, YF. Chen, YT. Long. Single molecule microscopy: an integrated system for optical and electrical detection of single molecules/particles inside a solid-state nanopore. Faraday Discuss. **Oral presentation**. Sept 13-15\. 2015 London, **UK**
 
 ----
-
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll

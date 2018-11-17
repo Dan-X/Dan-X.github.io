@@ -37,10 +37,13 @@
   font-size: rem(20)
   +position(fixed, $base-spacing null null $base-spacing)
   z-index: 100
-
+  
   +media($tablet-small)
     padding: 5px 0
     +position(relative, auto)
 
+  a
+    text-transform: capitalize
   span
     color: $primary-color
+    text-transform: capitalize

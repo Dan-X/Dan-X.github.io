@@ -18,11 +18,11 @@ sass:
   style: compressed # expanded
 
 # SEO settings
-title: XinShi
+title: Xin Shi
 description: "A free Jekyll theme for download"
 keywords: "Jekyll, theme, free, download, SEO, blog, web"
 url: http://nandomoreira.me
-baseurl: "/end2end"
+baseurl: ""
 
 google_analytics: UA-52446115-1
 repo: http://github.com/nandomoreirame/end2end
@@ -33,8 +33,8 @@ disqus_site_shortname: "nandothemes"
 author:
   name: Xin Shi
   job: Postdoctoral reseacher @ Cees Dekker Lab, TU Delft
-  bio: "Enthusiast performance, respdddddddddddddddddddddd"
-  thumb: /images/author.jpg
+  bio: "to explore the mysterious world of single moleulces , to ... <br/> to boldly go where no one has gone before"
+  thumb: /images/author_photo.jpg
   email: x.shi@tudelft.nm
   url: https://nandomoreira.me/
   github: https://github.com/nandomoreirame
