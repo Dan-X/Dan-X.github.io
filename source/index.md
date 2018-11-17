@@ -4,8 +4,6 @@
 
 layout: home
 ---
-
 <br/>
 Our latest paper in Nano Letters is online!<br/>
 *Active delivery of single DNA molecules in to plasmonic nanopores for label-free optical sensing*
-

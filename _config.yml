@@ -6,10 +6,11 @@ plugins: [jekyll-paginate-v2]
 
 pagination:
   enabled: true
-  per_page: 3
+  sort_reverse: true
+  per_page: 5
   permalink: "/page/:num/"
 
-comments: true
+comments: false
 
 source: source
 destination: _site
@@ -19,15 +20,15 @@ sass:
 
 # SEO settings
 title: Xin Shi
-description: "A free Jekyll theme for download"
-keywords: "Jekyll, theme, free, download, SEO, blog, web"
-url: http://nandomoreira.me
+description: "Dr Xin Shi's Personal website "
+keywords: "PhD, Science, Nanopore, Single molecule, XinShi, Nanoscience, Biophysics"
+url: http://xinshi.me
 baseurl: ""
 
-google_analytics: UA-52446115-1
-repo: http://github.com/nandomoreirame/end2end
-disqus_shortname: "nandothemes"
-disqus_site_shortname: "nandothemes"
+# google_analytics: UA-52446115-1
+# repo: http://github.com/nandomoreirame/end2end
+# disqus_shortname: "nandothemes"
+# disqus_site_shortname: "nandothemes"
 
 # Author settings
 author:
@@ -36,19 +37,19 @@ author:
   bio: "to explore the mysterious world of single moleulces , to ... <br/> to boldly go where no one has gone before"
   thumb: /images/author_photo.jpg
   email: x.shi@tudelft.nm
-  url: https://nandomoreira.me/
-  github: https://github.com/nandomoreirame
-  twitter: https://twitter.com/umdevux
-  facebook: https://facebook.com/umdevux
-  linkedin: https://linkedin.com/in/nandomoreirame
+  url: https://xinshi.me/
+  orcid: https://orcid.org/0000-0002-7382-5519
+  twitter: https://twitter.com/Dan_ShiXin
+  researchgate: https://www.researchgate.net/profile/Xin_Shi13
+  google-scholar: https://scholar.google.com/citations?hl=en&user=cdvqdJwAAAAJ
 
 # navbar pages
 navbar:
-  - slug: about
-    title: About
-  - slug: icons
-    title: Icons
+  - slug: research
+    title: Research
   - slug: blog
     title: Blog
+  - slug: about
+    title: About Me
 
 exclude: ["config.rb", "src", "Gemfile", "Gemfile.lock", "package.json","README.md", "Rakefile"]
