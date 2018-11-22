@@ -1,14 +1,14 @@
 # Build settings
 permalink: /blog/:year/:title/
 markdown: kramdown
-highlighter: pygments
-plugins: [jekyll-paginate-v2]
+highlighter: rouge
+# plugins: [jekyll-paginate-v2]
 
-pagination:
-  enabled: true
-  sort_reverse: true
-  per_page: 5
-  permalink: "/page/:num/"
+# pagination:
+#   enabled: true
+#   sort_reverse: true
+#   per_page: 5
+#   permalink: "/page/:num/"
 
 comments: false
 
@@ -33,7 +33,7 @@ baseurl: ""
 # Author settings
 author:
   name: Xin Shi
-  job: Postdoctoral reseacher 
+  job: Postdoctoral researcher 
   bio: "@ Cees Dekker Lab, TU Delft"
   thumb: /images/author_photo.jpg
   email: x.shi@tudelft.nm

@@ -1,13 +1,13 @@
 ---
 layout: pages
-pagination:
-  enabled: true
+<!-- pagination:
+  enabled: true -->
 ---
 
 <section class="post-list">
-  {% for post in paginator.posts %}
+  {% for post in site.posts %}
     {% include article.html %}
   {% endfor %}
 
-  {% include pagination.html %}
+  <!-- {% include pagination.html %} -->
 </section>
