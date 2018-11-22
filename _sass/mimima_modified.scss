@@ -2,17 +2,17 @@
 
 // Define defaults for each variable.
 
-$base-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
-$base-font-size:   16px !default;
-$base-font-weight: 400 !default;
-$small-font-size:  $base-font-size * 0.875 !default;
-$base-line-height: 1.5 !default;
+// $base-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+// $base-font-size:   16px !default;
+// $base-font-weight: 400 !default;
+// $small-font-size:  $base-font-size * 0.875 !default;
+// $base-line-height: 1.5 !default;
 
 $spacing-unit:     30px !default;
 
-$text-color:       #111 !default;
-$background-color: #fdfdfd !default;
-$brand-color:      #2a7ae2 !default;
+// $text-color:       #111 !default;
+// $background-color: #fdfdfd !default;
+// $brand-color:      #2a7ae2 !default;
 
 $grey-color:       #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
@@ -38,11 +38,7 @@ $on-large:         $on-laptop !default;
 // }
 // Notice the following mixin uses max-width, in a deprecated, desktop-first
 // approach, whereas media queries used elsewhere now use min-width.
-@mixin media-query($device) {
-  @media screen and (max-width: $device) {
-    @content;
-  }
-}
+
 
 @mixin relative-font-size($ratio) {
   font-size: $base-font-size * $ratio;
@@ -50,7 +46,13 @@ $on-large:         $on-laptop !default;
 
 // Import partials.
 @import
-  "minima/base",
+// "minima/base",
+  "variables",
+  "normalize",
+  "placeholder",
+ // "mixins",
   "minima/layout",
-  "minima/syntax-highlighting"
-;
+  "minima/syntax-highlighting",
+  "end2end/all";
+
+  

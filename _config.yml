@@ -1,15 +1,35 @@
-title: Your awesome title
-author: GitHub User
-email: your-email@domain.com
-description: > # this means to ignore newlines until "twitter_username:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+# SEO settings
+title: Xin Shi
+description: "Dr Xin Shi's Personal website "
+keywords: "PhD, Science, Nanopore, Single molecule, XinShi, Nanoscience, Biophysics"
+url: http://xinshi.me
+baseurl: ""
+
+# google_analytics: UA-52446115-1
+# repo: http://github.com/nandomoreirame/end2end
+# disqus_shortname: "nandothemes"
+# disqus_site_shortname: "nandothemes"
+
+# Author settings
+author:
+  name: Xin Shi
+  job: Postdoctoral researcher 
+  bio: "@ Cees Dekker Lab, TU Delft"
+  thumb: /assets/images/author_photo.jpg
+  email: x.shi@tudelft.nm
+  url: https://xinshi.me/
+  orcid: https://orcid.org/0000-0002-7382-5519
+  twitter: https://twitter.com/Dan_ShiXin
+  researchgate: https://www.researchgate.net/profile/Xin_Shi13
+  google-scholar: https://scholar.google.com/citations?hl=en&user=cdvqdJwAAAAJ
+
+
+
 
 # social links
-twitter_username: jekyllrb
-github_username:  jekyll
-rss: rss
+# twitter_username: jekyllrb
+# github_username:  jekyll
+# rss: rss
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
