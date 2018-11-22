@@ -8,10 +8,13 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-#gem "jekyll", "~>3.6.0"
-gem "rake", "~>10.5"
-gem "sass", "~>3.4"
-gem "json", "~> 2"
+
+# gem 'jekyll', '~>3.6'
+# gem 'rake', '~>10.5'
+# gem 'sass', '~>3.4'
+# gem 'json', '~> 2'
+# gem 'nokogiri', '1.8.5'
+
 
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
@@ -21,10 +24,10 @@ gem "github-pages", group: :jekyll_plugins
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "bourbon", "~>4.3"
-  gem "jekyll-feed", "~>0.6"
+  gem 'jekyll-feed', '~>0.6'
 #  gem "jekyll-paginate-v2"
-#  gem "pygments.rb"
-  gem "rouge"
-  gem "jekyll-compose"
-  gem "kramdown"
+#  gem 'pygments.rb'
+  gem 'jekyll-compose'
+#  gem "jekyll-paginate", "> 1.1"
+  gem 'kramdown'
 end
