@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>How to drill a solid-state nanopore</title>
+<meta name="description" content="  This is the first of a series of posts about my PhD research topics (nanopores, plasmonics, etc.). Different from serious research papers and reviews, thes...">
+
+<link rel="stylesheet" href="/css/main.css">
+<link rel="canonical" href="http://xinshi.me/blog/2019/How-to-drill-a-solid-state-nanopore/">
+<link rel="alternate" type="application/rss+xml" title="Xin Shi" href="http://xinshi.me/feed.xml" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-12563290-2"></script>
+<script>
+
+    // window.dataLayer = window.dataLayer || [];
+    // function gtag(){dataLayer.push(arguments);}
+    // gtag('js', new Date());
+
+    // gtag('config', 'UA-12563290-2');
+
+</script>
+
+</head>
+<body>
+  <header class="site-header">
+  <div class="container">
+    <input type="checkbox" id="toggleNavbar">
+    <h1 class="logo"><a href="/">Xin <span>Shi</span> </a></h1>
+    <label for="toggleNavbar" role="button" class="toggle-navbar-button">
+      <i class="icon icon-menu"></i>
+      <i class="icon icon-cross"></i>
+    </label>
+    <nav class="navbar">
+      <ul>
+        <li><a href="/" title="Home">Home</a></li>
+        
+          <li><a href="/research" title="Research">Research</a></li>
+        
+          <li><a href="/blog" title="Blog">Blog</a></li>
+        
+          <li><a href="/about" title="About Me">About Me</a></li>
+        
+<!--        <li><a href="/archive/master.zip" title="Download">Download</a></li>-->
+        <li><a href="/feed.xml" target="_blank"><i class="icon icon-rss"></i></a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+<main class="main-container">
+  <div class="container">
+    <article role="article" class="post">
+
+  <div class="card">
+    <header class="post-header">
+      <h1 class="post-title">How to drill a solid-state nanopore</h1>
+      <em class="post-meta">
+        <time>Nov 11, 2019</time>
+      </em>
+    </header>
+
+    <div class="post-content">
+      
+      <blockquote>
+  <p>This is the first of a series of posts about my PhD research topics (nanopores, plasmonics, etc.). Different from serious research papers and reviews, these blog posts will mostly focus on my personal experiences, knowledge, and comments on related topics. I hope this series can help you with your experiments if you are starting your own research related to these topics.</p>
+</blockquote>
+
+<p>Solid-state nanopores are simple, at least at the first look. A solid-state nanopore usually is simply a nanometer-sized small hole in a nanometer-thick dielectric membrane. Making this small hole, however, is not always that easy. In this article, let’s have a brief look at different methods of making them.</p>
+
+<p>This is not a serious review paper, and it is not intended for covering all aspects of the field. So please let me know if you have any questions, or you have some other things on mind that you think should be mentioned.</p>
+
+<h2 id="focused-ga-ion-beam-fib">Focused Ga+ ion beam (FIB)</h2>
+<p>Let’s start with FIB. In 2001, the first paper on using focused Ga+ beam to drill nanopores on membranes, and using the nanopore as a single-molecule sensor was <a href="https://www.nature.com/articles/35084037">reported</a> (please let me know if I’m wrong). If you know a little bit about SEM (scanning electron microscopy), the idea of FIB would be quite easy to understand. In fact, the FIB setups are usually built together with SEMs, so-called ‘dual-beam system’. Check out more about FIB <a href="https://en.wikipedia.org/wiki/Focused_ion_beam">here</a>.</p>
+
+<p style="color:gray; font-size: 80%; text-align: center;"><a href="https://commons.wikimedia.org/wiki/File:Fib.jpg"><img src="/images/20191111/Fib.jpg" alt="FIB" /></a>
+<em>Focused ion beam machine, CC BY-SA 3.0</em></p>
+
+<p>The idea of using FIB to make nanopores are quite straight forward: you have a beam of high-energy particles, in a typical case, Ga+ ions, you focus these particles into a small spot, and then the particles bombard the membrane, and then as a result, punch a hole in the membrane. Benefit from the high energy of the ion beam, which is usually used for micro- to nanometer-scale sculpting, FIB can be used for drilling pores in membranes with different thicknesses, ranging from nanometer to micrometer scale, and easily making pores of different sizes, from tens of nanometers to micrometers.</p>
+
+<p>However, there are some downsides to using FIB. The first problem is beam-size and spatial resolution. Although most of the FIB system has a single-digit-nanometer resolution, it is still challenging to drill a rather small pore on the membrane, and need quite some work optimising the condition. I have never drill nanopores with FIB myself (so far I usually just sit next to the operator and watch over the shoulder), but I did know people managed to drill &lt; 10-nm pores on 20-nm SiN membranes. The resolution limit of gallium-ion-based FIB can be significantly improved by using other smaller ions, like He<sup>2+</sup>, which is usually called the Helium Ion Microscope (HIM). You can read more about HIM <a href="https://iopscience.iop.org/article/10.1088/0957-4484/22/28/285310">here</a>. The second thing you might need to think about is the ion implantation and redeposition. Since the process relies on the focused ions interacting with the substrate, part of the ions (Ga<sup>+</sup>) can eventually be captured and stay in the crystal structure of the substrate, which might change the property of the substrate. Redeposition happens when the material that removed by the ion beam re-attaches on the substrate surface, before being completely evaluated by the vacuum. I’ve been told by different people that FIB could be a relatively ‘dirty’ process because of these two effects, but I think this all depends on what your substrate is and how much you care about this implantation and redeposition. Finally, the throughput from FIB was usually not ideal for me. Usually you can mount multiple samples on the sample stage, but still it takes quite some time to locate the right area on each sample, align the beams (usually electron beam for imaging and ion beam for milling), mill, then image… and during these steps you usually need to rotate the sample stage multiple times. It might be not a too big problem if you are a skilled operator, but I have to say it’s pretty slow. However, when we talk about thought-put, we need to compare it with something else. Comparing to TEM (we will talk about it later), it probably takes more time to align everything, but the milling process itself usually is programmable hence you can make a pore array easily, while under TEM you need to drill them one by one; But when comparing to EBL+RIE (also below), which allows easily make thousands of pores in parallel, it is much slower.</p>
+
+<h2 id="focused-electron-beam-tem">Focused electron beam (TEM)</h2>
+<p>Besides the focused ion beam, naturally, we can focus something much smaller: electrons. It’s pretty common to focus electrons in some imaging techniques, like Scanning Electron Microscopy (SEM), Transmission Electron Microscopy (TEM) etc. And yes, we can use this focused electron beam to make nanopores. Most of the time we use TEM/STEM (which basically like TEM but done by scanning a focused electron beam across the sample. It’s an oversimplification but not too far from what it is).</p>
+
+<p style="color:gray; font-size: 80%; text-align: center;"><a href="https://commons.wikimedia.org/wiki/File:Electron_Microscope.png"><img src="/images/20191111/TEM.png" alt="TEM" /></a>
+<em>Transmission Electron Microscope, Public domain, released by <a href="https://en.wikipedia.org/wiki/User:Graham_Beards">Dr. Graham Beards</a></em></p>
+
+<p>A big advantage of using an electron beam for drilling is the small beam size, therefore you can get smaller nanopores. In the lab, we routinely get 2-5-nm pores without a problem. On the larger side, we can also drill pores around 40 to 50 nm. They take more time but still within a doable range. Below 2 nm you need cleanser samples, well-focused electron beam, and more patience. One thing that needs to be kept in mind is the acceleration voltage of your TEM, which defines the energy of your electrons. 200 kV is the minimum (and probably the most common) one we use.</p>
+
+<p>TEM drilling is the method I like the most in the lab. It’s relatively clean, straight forward, and you get a TEM image of every pore immediately, so you will never work in blind.</p>
+
+<p>But of course, like almost all techniques, there are disadvantages.</p>
+
+<p>First of all, the through-put. TEM drilling is slow and expensive. Not only you need spend quite some time (5-10 min or even longer) for drilling each pore, during which you need to constantly monitor the membrane and visually check if the membrane is through, but also need the considerable amount of time for exchanging samples, venting and pumping the vacuum chamber. It wouldn’t be a problem if you drill not too many samples for research purpose, but when thinking about hundreds or even thousands of pores on a membrane or one on each sample, the cost (of both time and money, of course) increases rapidly.</p>
+
+<p>The second disadvantage I would think about is the type of material and thickness of the sample. TEM drilling mainly relies on the electrons bombarding the membrane. Therefore the ability of electron penetrating the membrane and make a hole on it depends highly on the materials and the thickness of the membrane. In <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/smll.201703307">my previous work</a>s, we typically use 20-nm or thinner silicon nitride membranes. With our typically 200 kV TEM, membranes thicker than 20 nm but below 30 nm might still drill-able, but if it’s much thicker there might be a problem. That’s also because of the third concern of TEM drilling: carbon deposition.</p>
+
+<p>Similar to the redeposition on FIB, carbon deposition/contamination on TEM is quite common. If the sample is not super clean, say with some organic contaminants on the membrane, or, the TEM vacuum chamber is not clean enough, the electrons will hit the organic contaminate and the amorphous carbon would be deposited on the sample. If the deposition rate is faster than your drilling rate, you will only get increasingly thicker amorphous carbon layer but will never get a though hole as you wanted. Under TEM, you will see the area where you park your electron beam is becoming darker and no sign of any though hole appears. The simplest way to prevent the problem, or at least reduce the deposition, is to clean your sample properly. Usually, we use the O2 plasma clean the membrane before the drilling (50 W, 1-2 min typically but not very strictly) and it works pretty well. Do note that it would be better to keep your membrane ‘standing-up’ so the plasma can reach both sides of the membrane.</p>
+
+<h2 id="electron-beam-lithography-with-reactive-ion-etching-ebl--rie">Electron-beam lithography with reactive ion etching (EBL + RIE)</h2>
+
+<p>As we’ve seen above, the throughput of TEM drilling is quite limited. Luckily there’s my second favourite method, Reactive Ion Etching (RIE) together with electron beam lithography (EBL).</p>
+
+<p><a href="https://en.wikipedia.org/wiki/Electron-beam_lithography">EBL</a> is a method to define patterns on a substrate. In brief you spin-coat<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup> a layer of e-beam resist (like PMMA) with certain thickness (by tuning the spin speed), dry it, then expose it with focused electron beam in a e-beam machine (sometimes it’s called Electron Beam Pattern Generator), which basically a SEM, but instead of scanning the e-beam in a raster pattern, you (with a program) decide how the e-beam moves and when to turn on and off the beam (with a shutter). Then the exposed sample will be developed in a certain developer which removes the exposed resist (or the other way around, depending on the type of resist).</p>
+
+<p>Then there is RIE. RIE is one of the typical dry etching methods (comparing to ‘wet etching’). You can read more about RIE <a href="https://en.wikipedia.org/wiki/Reactive-ion_etching">here</a>. In brief, in a vacuum chamber, controlled amount of reactive gas (like O<sub>2</sub>, CHF<sub>3</sub>, SF<sub>6</sub>, etc.) is flushed in from the top of the chamber to the bottom. Under the electromagnetic field (RF) generated by the top and the bottom electrode, plasma is ignited in the chamber and biased towards the sample. The ion-induced reaction and the physical bombardment work together to remove the material on your sample from top to bottom. Depending on the materials of your sample (layers), the etching rate can vary significantly. Hence if you select a combination of the type of gas, the pressure and the bias voltage, with which you can probably etch your membrane (like SiN) in a relatively faster rate while keeping a lower etching rate on the e-beam resist (such as the typical one, PMMA). Then at some point, your SiN in the e-beam exposed area will be etched through while the rest area is still protected by the resist.</p>
+
+<p style="color:gray; font-size: 80%; text-align: center;"><a href="https://commons.wikimedia.org/wiki/File:Rieoperation.svg"><img src="/images/20191111/RIE.svg" alt="RIE" /></a>
+<em>Reactive ion etching, CC BY-SA 3.0</em></p>
+
+<p>By combining EBL and RIE, one can use e-beam define nanopores on the resist, then etch through the membrane with RIE. In this way, fabrication of a large number of nanopores on membranes is very easy, because they will all be etched in parallel. The smallest size of your nanopores made with these methods is determined by the beam size. Our e-beam machine (Raith EBPG 5200) has a smallest beam size of ~16-20 nm, hence that is the smallest nanopore diameter you can get. Additionally, this method works not only on SiN but also on almost any thin membrane (such as graphene) as long as you can find a suitable etching condition.</p>
+
+<p>Read more about EBL and RIE etching nanopore arrays <a href="https://iopscience.iop.org/article/10.1088/1361-6528/aaabce">here</a>.</p>
+
+<h2 id="controlled-breakdown">Controlled breakdown</h2>
+<p>The methods above are all processed in the vacuum and integrated nicely with the standard semiconductor fabrication process. However, these methods are usually expensive and time-consuming, especially TEM or FIB. EBL+RIE is much better since you can etch with very high throughput, but you still need expensive e-beam machines and etchers. That’s where the controlled breakdown methods come to rescue.</p>
+
+<p>I tried using Controlled dielectric breakdown to make nanopore when we had no good enough TEM or FIB to drill nanopores ourselves. So when I saw the <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0092880">paper</a> published by Vincent Tabard-Cossa’s group, I really felt it saved my PhD.</p>
+
+<p>The process is very simple. The fabrication happens in solution, in situ. You assemble your flowcells with your free-standing membrane without the nanopore (usually &lt; 30 nm thick, 20 nm worked well for me), apply a &lt; 20 V voltage across the membrane and monitor the leakage current across the membrane. At some point, you will see a current jump, which indicates a break-down event and the birth of a brand-new pore. In Vincent’s paper, they provided very detailed information about the methods and a schematic of the circuit needed. You also probably need a LabVIEW program to control the voltage and readout current. The circuit can be easily powered by DC voltage supply (+/- 20 V), or even two 9-V batteries like I did.</p>
+
+<p style="color:gray; font-size: 80%; text-align: center;"><a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0092880"><img src="/images/20191111/CDB.png" alt="CDB" /></a>
+<em>Controlled dielectric breakdown, PloS one, 9(3), e92880, CC-BY 4.0</em></p>
+
+<p>In general, this method worked pretty well for me. We could make pores from single-digit-nanometer to tens of nanometers in diameter. But it does have drawbacks.</p>
+
+<p>First, several groups reported that there might be multiple pores generated at the (roughly) the same time [like <a href="https://www.nature.com/articles/srep17819">this</a> and <a href="https://pubs.rsc.org/en/content/articlelanding/2017/nr/c7nr02629c">this</a>]. This can be improved by using one of the localisation methods to control the position of the pore-formation, such as using laser [<a href="https://pubs.acs.org/doi/10.1021/acs.nanolett.5b03239">this</a> and <a href="https://pubs.acs.org/doi/10.1021/acsnano.8b06489">this</a>], thinning down a small area of membrane (<a href="https://iopscience.iop.org/article/10.1088/1361-6528/aa564d">here</a>, multiple formation happened under high voltage), using <a href="https://pubs.acs.org/doi/abs/10.1021/acsnano.7b01519">pipette tip</a> (SICM) to limit the electrolyte-membrane interface, or <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/smtd.201900147">an AFM tip</a> to achieve breakdown locally.</p>
+
+<p>Second, the shape of the nanopores you get is less defined compared to TEM, FIB, or RIE pores, and it’s quite hard to image it. Usually, you can only ‘see’ the shape o your pores using TEM later. But looking for a small nanometer-sized pore under TEM is not an easy task for sure… And as the first paper reported, the freshly made pores might have a period of ‘noisy time’ and will be better after storing in LiCl for a while. This might also because of the irregular edges from the breakdown process (&lt;- I need to double-check this from literature). Then if you want to image the pore, it’s pretty tricky. Where is the pore formed? You don’t know. So under TEM, you need to spend a lot of time to just ‘find’ the pore, if it’s possible at all. Using calcium fluorescence can help you know the rough position of the pore before you take it out and put it into the TEM, but it’s still quite challenging since it’s not that easy to locate the exactly the same position.</p>
+
+<p>Third, we feel the process is quite depending on the silicon nitride membranes. Sometimes we couldn’t get any pores from the entire batch of membranes, or the pores are quite noisy, and then it problem solved by simply use another batch of membranes.</p>
+
+<p>Besides controlled dielectric breakdown, one can also make pore via direct laser etching. Check out the papers from Amit Meller’s lab and Meni Wanunu’s lab <a href="https://www.nature.com/articles/s41598-018-28136-z">here</a> and <a href="https://pubs.acs.org/doi/abs/10.1021/acsnano.8b06805">here</a>. By simply focusing a beam of visible laser, the silicon nitride can be etched gradually and in the end form a nanometer-sized pore. In these methods, both laser wavelength and the silicon: nitride ratio matter. I have never tried this method myself, but I do like the elegance of it a lot. Check out more from the papers above.</p>
+
+<h2 id="pulling-a-glass-pipette">Pulling a glass pipette</h2>
+
+<p>Above we are all talking about making a nanopore on a thin membrane, such as a silicon nitride membrane. But there are also other types of solid-state nanopores, for example, nanopores made by pulling a glass capillary.</p>
+
+<p>Slightly different from the ‘pore in a membrane’ type, these glass nano-pipette nanopores are the nanometer-sized opening of a glass capillary. The capillaries themselves have a millimeter- or sub-millimeter-sized outer and inner diameter. Then you can use a pipette puller, which uses laser, or a piece of resistance wire, to heat up the middle part of the capillary, then pull it from the end of the pipette (see the picture below). Simple huh? The size of the final pipette tip is usually determined by multiple parameters, such as the temperature of heating (usually people use multiple heating steps), the size/length of the heated area on the capillary, the force applied to pull the pipette, and also the ambient temperature, humidity etc. If all these parameters are well controlled, this process can be pretty reproducible and the sizes of the nanopore can go down to tens of nanometers even sub-10-nm (like in this impressive <a href="https://pubs.acs.org/doi/10.1021/acs.nanolett.8b04715">paper</a>).  Besides, this approach is much cheaper than the TEM/FIB/EBL methods. The glass capillaries are cheap; the pipette puller machine is relatively cheap comparing to TEM, FIB or EBPG machine; and the process itself is quite fast. A skilled operator can manage to pull a capillary within a minute, including morning the capillary, press the button and take the product out (you get two at once of course). I personally never did a serious research project with this pipette but learn how to do it mainly for fun, so I never managed to become a skilled puller ;p</p>
+
+<p>Now let’s have a look at the downsides.</p>
+
+<p>First of all, you don’t know the size/geometry of the ‘pores’ immediately. You either need to estimate them by measure the conductance, and fit the conductance into the typical model to get the size, or you need to go through the process of SEM/TEM the nano-pipette, which is pretty challenging (but doable). The pipette is fragile and quite easy to break during the imaging process. SEM usually is easier because its relatively larger sample stage, but for TEM, you probably need to somehow stick it on a copper grid. But even with SEM to see the size of the opening, you need to position the tip vertically, towards the electron gun, so you can image and measure the ‘nanopore’ itself, otherwise, you can only get the outer diameter of the tip. Another probably of using SEM is conductivity. Glass is usually not conductive enough to give you a nice resolution, so sometimes sputtering of a metal layer would be necessary, but normally you don’t want the sputtered gold mess up your pore itself (changing diameter/shape etc).</p>
+
+<p>The second one might be the thought-put of measurement. On the ‘nanopore-in-a-membrane’ type of devices, we can usually achieve some kind of multiplexing measurement, using optical readout or microfluidics. This can be tricker for glass pipette because of their bunker size. If you want a way to improve the throughput of your experiments instead of design a multiplexing sensing device, <a href="https://pubs.rsc.org/en/content/articlelanding/2013/LC/c3lc50069a#!divAbstract">this</a> interesting paper showed a good way to go.</p>
+
+<p>The third one could be the sensing length. Comparing to the ‘nanopores-in-a-membrane’, nano-pipettes usually have a much longer channel, which affects the ionic current signal, and might lead to a lower spatial resolution. Check out more discussion about it <a href="https://journals.aps.org/pre/abstract/10.1103/PhysRevE.93.022401">here</a> and <a href="https://www.nature.com/articles/nnano.2016.50#ref18">here</a>.</p>
+
+<h2 id="in-the-end">In the end</h2>
+<p>As I mentioned at the very beginning, there are still a lot of other methods to make solid-state nanopores that are not covered in this post. Here I mainly mentioned the ones that I used during my PhD research. Please let me know if you want to know more about any of these methods above, or if you have any questions about them. I’ll try my best to help you.</p>
+
+<p>P.S sorry there’s not comment session here yet, you can send me an email (x.shi[at]tudelft.nl) if you have any question/comment.</p>
+
+<hr />
+<p style="color:gray; font-size: 80%; text-align: center;"><em>version history: first release: v1, 201911</em></p>
+<hr />
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>spin-coat: it simply means putting a droplet of resist solution on your substrate, spinning the substrate at a certain speed. Because of the viscosity of the solution, its adherence on the substrate, the spinning speed determines the thickness of the coating layer. All of this can be done with a simple machine called ‘spin-coater’ which can hold your sample, spin it with the speed you set, and prevent you make a mess because of the exceeded resist flying out of the sample/holder] <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+    </div>
+
+<!--    
+-->
+  </div>
+
+</article>
+
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <ul class="social">
+  <li><a href="https://scholar.google.com/citations?hl=en&user=cdvqdJwAAAAJ" target="_blank"><i class="ai ai-google-scholar"></i></a></li>
+  <li><a href="https://www.researchgate.net/profile/Xin_Shi13" target="_blank"><i class="ai ai-researchgate-square"></i></a></li>
+  <li><a href="https://orcid.org/0000-0002-7382-5519" target="_blank"><i class="ai ai-orcid-square"></i></a></li>
+  <li><a href="https://twitter.com/Dan_ShiXin" target="_blank"><i class="icon icon-twitter"></i></a></li>
+</ul>
+    <p class="txt-medium-gray">
+      <small>&copy;2019 All rights reserved. Made with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> and ♥</small>
+    </p>
+  </div>
+</footer>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <style>
+    #cookie-notice {padding: 7px 15px; display: none; text-align: center; position: fixed; bottom: 0; width: 100%; background: #222; color: rgba(255,255,255,0.8);}
+    #cookie-notice a {cursor: pointer; margin-left: 6px; margin-right: 6px;}
+    @media (max-width: 767px) {
+        #cookie-notice span {display: block; padding-top: 3px; margin-bottom: 13px;}
+        #cookie-notice a {position: relative; bottom: 4px;}
+    }
+</style>
+<div id="cookie-notice"><span>This site uses Google Analytics to measure and report website traffic, including the number and locations of visitors, etc.</span> Feel free to click<a id="cookie-notice-reject" class="btn btn-primary btn-sm">Disapprove</a>or<a id="cookie-notice-accept" class="btn btn-primary btn-sm">Approve</a>  <a href="/privacy" class="btn btn-primary btn-sm">More info</a></div>
+<script>
+    function createCookie(name,value,days) {
+        var expires = "";
+        if (days) {
+            var date = new Date();
+            date.setTime(date.getTime() + (days*24*60*60*1000));
+            expires = "; expires=" + date.toUTCString();
+        }
+        document.cookie = name + "=" + value + expires + "; path=/";
+    }
+    function readCookie(name) {
+        var nameEQ = name + "=";
+        var ca = document.cookie.split(';');
+        for(var i=0;i < ca.length;i++) {
+            var c = ca[i];
+            while (c.charAt(0)==' ') c = c.substring(1,c.length);
+            if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+        }
+        return null;
+    }
+    function eraseCookie(name) {
+        createCookie(name,"",-1);
+    }
+
+    if(readCookie('cookie-notice-dismissed')=='true') {
+        if (jekyll.environment == 'production') {
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'UA-12563290-2');
+            console.log("object");
+        }
+    } else if (readCookie('cookie-notice-dismissed')=='false'){
+        
+    } else {
+        $('#cookie-notice').show();
+    }
+    $('#cookie-notice-accept').click(function() {
+        createCookie('cookie-notice-dismissed','true',31);
+        $('#cookie-notice').hide();
+        location.reload();
+    });
+    $('#cookie-notice-reject').click(function() {
+        createCookie('cookie-notice-dismissed','false',31);
+        $('#cookie-notice').hide();
+        location.reload();
+    });
+
+</script>
+
+</body>
+</html>
