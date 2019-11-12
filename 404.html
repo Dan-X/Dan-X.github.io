@@ -9,8 +9,8 @@
 <meta name="description" content="Dr Xin Shi's Personal website ">
 
 <link rel="stylesheet" href="/css/main.css">
-<link rel="canonical" href="http://localhost:4000/404.html">
-<link rel="alternate" type="application/rss+xml" title="Xin Shi" href="http://localhost:4000/feed.xml" />
+<link rel="canonical" href="http://xinshi.me/404.html">
+<link rel="alternate" type="application/rss+xml" title="Xin Shi" href="http://xinshi.me/feed.xml" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
 </head>
@@ -93,6 +93,7 @@
 
 
   
+
   <style>
     #cookie-notice {padding: 7px 15px; display: none; text-align: center; position: fixed; bottom: 0; width: 100%; background: #222; color: rgba(255,255,255,0.8);}
     #cookie-notice a {cursor: pointer; margin-left: 6px; margin-right: 6px;}
@@ -102,8 +103,8 @@
     }
 </style>
 <div id="cookie-notice"><span>This site uses Google Analytics to measure and report website traffic, including the number and locations of visitors, etc.</span> <br/> Feel free to click<a id="cookie-notice-reject" class="btn btn-primary btn-sm">Disapprove</a>or<a id="cookie-notice-accept" class="btn btn-primary btn-sm">Approve</a>  <a href="/privacy" class="btn btn-primary btn-sm">More info</a></div>
-
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-12563290-2"></script>
+    
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-12563290-2"></script>
 
 <script>
     function createCookie(name,value,days) {
@@ -155,9 +156,21 @@
     });
 
 </script>
-
-
-
+  
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-12563290-2"></script>
+<script>
+    if(readCookie('cookie-notice-dismissed')=='true') {
+        // if (jekyll.environment == 'production') {
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'UA-12563290-2');
+            console.log("object");
+        // }
+    } 
+</script>
+  
 </body>
 
 </html>
