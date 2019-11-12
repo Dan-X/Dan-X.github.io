@@ -9,20 +9,9 @@
 <meta name="description" content="Dr Xin Shi's Personal website ">
 
 <link rel="stylesheet" href="/css/main.css">
-<link rel="canonical" href="http://xinshi.me/">
-<link rel="alternate" type="application/rss+xml" title="Xin Shi" href="http://xinshi.me/feed.xml" />
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-12563290-2"></script>
-<script>
-
-    // window.dataLayer = window.dataLayer || [];
-    // function gtag(){dataLayer.push(arguments);}
-    // gtag('js', new Date());
-
-    // gtag('config', 'UA-12563290-2');
-
-</script>
+<link rel="canonical" href="http://localhost:4000/">
+<link rel="alternate" type="application/rss+xml" title="Xin Shi" href="http://localhost:4000/feed.xml" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
 </head>
 <body>
@@ -54,7 +43,7 @@
     </div>
   </div>
 </section>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  
   <style>
     #cookie-notice {padding: 7px 15px; display: none; text-align: center; position: fixed; bottom: 0; width: 100%; background: #222; color: rgba(255,255,255,0.8);}
     #cookie-notice a {cursor: pointer; margin-left: 6px; margin-right: 6px;}
@@ -63,7 +52,9 @@
         #cookie-notice a {position: relative; bottom: 4px;}
     }
 </style>
-<div id="cookie-notice"><span>This site uses Google Analytics to measure and report website traffic, including the number and locations of visitors, etc.</span> Feel free to click<a id="cookie-notice-reject" class="btn btn-primary btn-sm">Disapprove</a>or<a id="cookie-notice-accept" class="btn btn-primary btn-sm">Approve</a>  <a href="/privacy" class="btn btn-primary btn-sm">More info</a></div>
+<div id="cookie-notice"><span>This site uses Google Analytics to measure and report website traffic, including the number and locations of visitors, etc.</span> <br/> Feel free to click<a id="cookie-notice-reject" class="btn btn-primary btn-sm">Disapprove</a>or<a id="cookie-notice-accept" class="btn btn-primary btn-sm">Approve</a>  <a href="/privacy" class="btn btn-primary btn-sm">More info</a></div>
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-12563290-2"></script>
 <script>
     function createCookie(name,value,days) {
         var expires = "";
@@ -100,6 +91,7 @@
         
     } else {
         $('#cookie-notice').show();
+        console.log("show");
     }
     $('#cookie-notice-accept').click(function() {
         createCookie('cookie-notice-dismissed','true',31);
@@ -115,4 +107,5 @@
 </script>
 
 </body>
+
 </html>

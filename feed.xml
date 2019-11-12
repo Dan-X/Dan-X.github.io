@@ -3,10 +3,10 @@
   <channel>
     <title>Xin Shi</title>
     <description>Dr Xin Shi's Personal website </description>
-    <link>http://xinshi.me/</link>
-    <atom:link href="http://xinshi.me/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 11 Nov 2019 22:19:43 +0100</pubDate>
-    <lastBuildDate>Mon, 11 Nov 2019 22:19:43 +0100</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 12 Nov 2019 19:22:31 +0100</pubDate>
+    <lastBuildDate>Tue, 12 Nov 2019 19:22:31 +0100</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
     
       <item>
@@ -15,15 +15,15 @@
   &lt;p&gt;This is the first of a series of posts about my PhD research topics (nanopores, plasmonics, etc.). Different from serious research papers and reviews, these blog posts will mostly focus on my personal experiences, knowledge, and comments on related topics. I hope this series can help you with your experiments if you are starting your own research related to these topics.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Solid-state nanopores are simple, at least at the first look. A solid-state nanopore usually is simply a nanometer-sized small hole in a nanometer-thick dielectric membrane. Making this small hole, however, is not always that easy. In this article, let’s have a brief look at different methods of making them.&lt;/p&gt;
+&lt;p&gt;Solid-state nanopores are simple, at least at first glance. A solid-state nanopore usually is simply a nanometer-sized small hole in a nanometer-thick dielectric membrane. Making this small hole, however, is not always that easy. In this article, let’s have a brief look at different methods of making them.&lt;/p&gt;
 
 &lt;p&gt;This is not a serious review paper, and it is not intended for covering all aspects of the field. So please let me know if you have any questions, or you have some other things on mind that you think should be mentioned.&lt;/p&gt;
 
-&lt;h2 id=&quot;focused-ga-ion-beam-fib&quot;&gt;Focused Ga+ ion beam (FIB)&lt;/h2&gt;
+&lt;h2 id=&quot;focused-ion-beam-fib&quot;&gt;Focused ion beam (FIB)&lt;/h2&gt;
 &lt;p&gt;Let’s start with FIB. In 2001, the first paper on using focused Ga+ beam to drill nanopores on membranes, and using the nanopore as a single-molecule sensor was &lt;a href=&quot;https://www.nature.com/articles/35084037&quot;&gt;reported&lt;/a&gt; (please let me know if I’m wrong). If you know a little bit about SEM (scanning electron microscopy), the idea of FIB would be quite easy to understand. In fact, the FIB setups are usually built together with SEMs, so-called ‘dual-beam system’. Check out more about FIB &lt;a href=&quot;https://en.wikipedia.org/wiki/Focused_ion_beam&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p style=&quot;color:gray; font-size: 80%; text-align: center;&quot;&gt;&lt;a href=&quot;https://commons.wikimedia.org/wiki/File:Fib.jpg&quot;&gt;&lt;img src=&quot;/images/20191111/Fib.jpg&quot; alt=&quot;FIB&quot; /&gt;&lt;/a&gt;
-&lt;em&gt;Focused ion beam machine, CC BY-SA 3.0&lt;/em&gt;&lt;/p&gt;
+&lt;em&gt;Focused ion beam machine, Wikimedia, &lt;a href=&quot;https://commons.wikimedia.org/wiki/User:EdC&quot;&gt;EdC&lt;/a&gt;, CC BY-SA 3.0&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;The idea of using FIB to make nanopores are quite straight forward: you have a beam of high-energy particles, in a typical case, Ga+ ions, you focus these particles into a small spot, and then the particles bombard the membrane, and then as a result, punch a hole in the membrane. Benefit from the high energy of the ion beam, which is usually used for micro- to nanometer-scale sculpting, FIB can be used for drilling pores in membranes with different thicknesses, ranging from nanometer to micrometer scale, and easily making pores of different sizes, from tens of nanometers to micrometers.&lt;/p&gt;
 
@@ -99,7 +99,7 @@
 &lt;h2 id=&quot;in-the-end&quot;&gt;In the end&lt;/h2&gt;
 &lt;p&gt;As I mentioned at the very beginning, there are still a lot of other methods to make solid-state nanopores that are not covered in this post. Here I mainly mentioned the ones that I used during my PhD research. Please let me know if you want to know more about any of these methods above, or if you have any questions about them. I’ll try my best to help you.&lt;/p&gt;
 
-&lt;p&gt;P.S sorry there’s not comment session here yet, you can send me an email (x.shi[at]tudelft.nl) if you have any question/comment.&lt;/p&gt;
+&lt;p&gt;P.S sorry there’s no comment box here yet, you can send me an email (x.shi[at]tudelft.nl) if you have any question/comment.&lt;/p&gt;
 
 &lt;hr /&gt;
 &lt;p style=&quot;color:gray; font-size: 80%; text-align: center;&quot;&gt;&lt;em&gt;version history: first release: v1, 201911&lt;/em&gt;&lt;/p&gt;
@@ -113,8 +113,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Mon, 11 Nov 2019 19:00:01 +0100</pubDate>
-        <link>http://xinshi.me/blog/2019/How-to-drill-a-solid-state-nanopore/</link>
-        <guid isPermaLink="true">http://xinshi.me/blog/2019/How-to-drill-a-solid-state-nanopore/</guid>
+        <link>http://localhost:4000/blog/2019/How-to-drill-a-solid-state-nanopore/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2019/How-to-drill-a-solid-state-nanopore/</guid>
         
         <category>nanopore</category>
         
