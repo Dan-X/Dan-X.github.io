@@ -5,8 +5,8 @@
     <description>Dr Xin Shi's Personal website </description>
     <link>http://xinshi.me/</link>
     <atom:link href="http://xinshi.me/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 12 Nov 2019 20:03:19 +0100</pubDate>
-    <lastBuildDate>Tue, 12 Nov 2019 20:03:19 +0100</lastBuildDate>
+    <pubDate>Sat, 28 Dec 2019 14:20:11 +0800</pubDate>
+    <lastBuildDate>Sat, 28 Dec 2019 14:20:11 +0800</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
     
       <item>
@@ -35,7 +35,7 @@
 &lt;p style=&quot;color:gray; font-size: 80%; text-align: center;&quot;&gt;&lt;a href=&quot;https://commons.wikimedia.org/wiki/File:Electron_Microscope.png&quot;&gt;&lt;img src=&quot;/images/20191111/TEM.png&quot; alt=&quot;TEM&quot; /&gt;&lt;/a&gt;
 &lt;em&gt;Transmission Electron Microscope, Public domain, released by &lt;a href=&quot;https://en.wikipedia.org/wiki/User:Graham_Beards&quot;&gt;Dr. Graham Beards&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;A big advantage of using an electron beam for drilling is the small beam size, therefore you can get smaller nanopores. In the lab, we routinely get 2-5-nm pores without a problem. On the larger side, we can also drill pores around 40 to 50 nm. They take more time but still within a doable range. Below 2 nm you need cleanser samples, well-focused electron beam, and more patience. One thing that needs to be kept in mind is the acceleration voltage of your TEM, which defines the energy of your electrons. 200 kV is the minimum (and probably the most common) one we use.&lt;/p&gt;
+&lt;p&gt;A big advantage of using an electron beam for drilling is the small beam size, therefore you can get smaller nanopores. In the lab, we routinely get 2-5-nm pores without a problem. On the larger side, we can also drill pores around 40 to 50 nm. They take more time but still within a doable range. Below 2 nm you need cleaner samples, well-focused electron beam, and more patience. One thing that needs to be kept in mind is the acceleration voltage of your TEM, which defines the energy of your electrons. 200 kV is the minimum (and probably the most common) one we use.&lt;/p&gt;
 
 &lt;p&gt;TEM drilling is the method I like the most in the lab. It’s relatively clean, straight forward, and you get a TEM image of every pore immediately, so you will never work in blind.&lt;/p&gt;
 
@@ -112,7 +112,7 @@
   &lt;/ol&gt;
 &lt;/div&gt;
 </description>
-        <pubDate>Mon, 11 Nov 2019 19:00:01 +0100</pubDate>
+        <pubDate>Tue, 12 Nov 2019 02:00:01 +0800</pubDate>
         <link>http://xinshi.me/blog/2019/How-to-drill-a-solid-state-nanopore/</link>
         <guid isPermaLink="true">http://xinshi.me/blog/2019/How-to-drill-a-solid-state-nanopore/</guid>
         
